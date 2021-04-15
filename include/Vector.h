@@ -1,4 +1,4 @@
-/*--------- Vector.hpp ----------------------------------
+/*--------- Vector.h ----------------------------------
 
    Vector Class Library Header
    Copyright 1994-2008, Bill Leonard
@@ -9,11 +9,6 @@
    warranties of merchantability, performance, and fitness for a
    particular purpose. This software is provided "as is" and the user
    assumes the entire risk as to its quality and performance.
-*/
-
-/*
-	
-	See "vector.h".
 */
 
 #ifndef VECTOR_H
