@@ -25,35 +25,35 @@ class Vector2 {
 
       Vector2& set(scalar a, scalar b) ;
 
-		/// Add THIS plus v: THIS + v.
+			/// Add THIS plus v: THIS + v.
       Vector2  operator+ (Vector2 const& v) const ;
-		/// Add v to THIS: THIS = THIS + v.
+			/// Add v to THIS: THIS = THIS + v.
       Vector2& operator+=(Vector2 const& v) ;
-		/// Subtract THIS minus v: THIS - v.
+			/// Subtract THIS minus v: THIS - v.
       Vector2  operator- (Vector2 const& v) const ;
-		/// Subtract v from THIS: THIS = THIS - v.
+			/// Subtract v from THIS: THIS = THIS - v.
       Vector2& operator-=(Vector2 const& v) ;
-		/// Negate THIS: -THIS;
+			/// Negate THIS: -THIS;
       Vector2  operator- () const ;
-		/// Scale THIS: THIS * s.
+			/// Scale THIS: THIS * s.
       Vector2  operator* (scalar s) const ;
-		/// Scale THIS: THIS = THIS * s.
+			/// Scale THIS: THIS = THIS * s.
       Vector2& operator*=(scalar s) ;
-		/// Scale THIS: s * THIS.
+			/// Scale THIS: s * THIS.
       friend Vector2 operator* (scalar s, Vector2 const& v) ;
-		/// Scale THIS: THIS * 1/s.
+			/// Scale THIS: THIS * 1/s.
       Vector2  operator/ (scalar s) const ;
-		/// Scale THIS: THIS = THIS * 1/s.
+			/// Scale THIS: THIS = THIS * 1/s.
       Vector2& operator/=(scalar s) ;
-        /// Dot Product of THIS and v: THIS dot v.
+	        /// Dot Product of THIS and v: THIS dot v.
       scalar   dot       (Vector2 const& v) const ;
-		/// Coordinate-by-coordinate multiplication: THIS.x * v.x, THIS.y * v.y.
+			/// Coordinate-by-coordinate multiplication: THIS.x * v.x, THIS.y * v.y.
       Vector2  operator* (Vector2 const& v) const ;
-		/// Coordinate-by-coordinate multiplication: THIS.x = THIS.x * v.x, etc.
+			/// Coordinate-by-coordinate multiplication: THIS.x = THIS.x * v.x, etc.
       Vector2  operator*=(Vector2 const& v) ;         /// coord-by-coord
-		/// Smallest magnitude coordinate (absolute value) of THIS.
+			/// Smallest magnitude coordinate (absolute value) of THIS.
       scalar   minCoord() const ;
-		/// Largest magnitude coordinate (absolute value) of THIS.
+			/// Largest magnitude coordinate (absolute value) of THIS.
       scalar   maxCoord() const ;
    } ;
 
