@@ -1,0 +1,28 @@
+var class_direction =
+[
+    [ "Direction", "class_direction.html#aba0c848f9db9831e6feb64d978e6d019", null ],
+    [ "Direction", "class_direction.html#aa936d836ccf33e00354281b9373f0784", null ],
+    [ "angle", "class_direction.html#ad83e2eeca8f40c26fcbc5500958f5eb2", null ],
+    [ "cross", "class_direction.html#a31fe0858a52157fe743ef38816b95d14", null ],
+    [ "dot", "class_direction.html#afecde766ec395657e258ab2f7e0521b2", null ],
+    [ "dot", "class_direction.html#a28f147dffe746537a2fb195ce74af56d", null ],
+    [ "len", "class_direction.html#ac7e8116c32cad89a8f98e67cbff1a707", null ],
+    [ "majorAxis", "class_direction.html#a1f4645aa8a7f8ac8507b06b0a43848d8", null ],
+    [ "maxCoord", "class_direction.html#a0d2efdc5297970bafa39b6a5c3f29c95", null ],
+    [ "minCoord", "class_direction.html#af3655e80d404948ab1055f48b6682034", null ],
+    [ "minorAxis", "class_direction.html#a3d71d6aab2c81e310d167abc69aebbe7", null ],
+    [ "norm", "class_direction.html#a381c867e588e272c49feaeed3a95ee77", null ],
+    [ "operator*", "class_direction.html#aafe185e36887cef807958b81f2a39bc3", null ],
+    [ "operator+", "class_direction.html#a7bf63de36956a44e5c4f4a4f2264807a", null ],
+    [ "operator+=", "class_direction.html#a157b73e0abd2c870bc79a674b1549aaa", null ],
+    [ "operator-", "class_direction.html#a0f056b8e60ba7ab9e1b6206722af1cbe", null ],
+    [ "operator-", "class_direction.html#a15c5e62d793fd0e2b927e05cfad43bbd", null ],
+    [ "operator-=", "class_direction.html#ab74f460bf54030fbd511c4922fd5acec", null ],
+    [ "operator/", "class_direction.html#aa54ce55d80e78d20b6c50f59aaabfae1", null ],
+    [ "set", "class_direction.html#aa2ec60eda22dc76ef00841325b9e9d6d", null ],
+    [ "operator*", "class_direction.html#a39f7d9d4e48a2fd73aad29ebcecec493", null ],
+    [ "Vector", "class_direction.html#a00db77a198f9146fc67c32c61ed727e0", null ],
+    [ "x", "class_direction.html#a7a1e79f1ef236efce9c00b1a6512fbca", null ],
+    [ "y", "class_direction.html#af1f7db2f18769686cdb6da077c80082e", null ],
+    [ "z", "class_direction.html#a5ba2212f9434434b3499740bab08f5ce", null ]
+];
