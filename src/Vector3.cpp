@@ -1,7 +1,7 @@
 /* -------- Vector3.cpp -----------
 
    3D Vector Class Library
-   Copyright 1994-2008, Bill Leonard
+   Copyright 1994-2008,2021 Bill Leonard
 
    The author will not be liable for any bug, error, omission,
    defect, deficiency, or nonconformity in this software. The author
@@ -12,12 +12,6 @@
 
 
 */
-
-#ifdef _DEBUG
-#define new DEBUG_NEW
-#undef THIS_FILE
-static char THIS_FILE[] = __FILE__;
-#endif
 
 #include <vector.h>
 

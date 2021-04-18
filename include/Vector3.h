@@ -1,7 +1,7 @@
 /* -------- Vector3.h -----------
 
    3D Vector Class Library Header
-   Copyright 1994-2008, Bill Leonard
+   Copyright 1994-2008,2021 Bill Leonard
 
    The author will not be liable for any bug, error, omission,
    defect, deficiency, or nonconformity in this software. The author

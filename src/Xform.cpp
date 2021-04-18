@@ -1,7 +1,7 @@
 /* -------- Xform.cpp -----------
 
    Transform Class Library
-   Copyright 1994-2008, Bill Leonard
+   Copyright 1994-2008,2021 Bill Leonard
 
    The author will not be liable for any bug, error, omission,
    defect, deficiency, or nonconformity in this software. The author
@@ -11,12 +11,6 @@
    assumes the entire risk as to its quality and performance.
 
 */
-#ifdef _DEBUG
-#define new DEBUG_NEW
-#undef THIS_FILE
-static char THIS_FILE[] = __FILE__;
-#endif
-
 
 #include "vector.h"
 
@@ -242,7 +236,7 @@ Vector4 operator*(Vector4 const& v, Transform const& mx) {
 /** -----------------------------------------------------------
  * Post transform a position vector. (Multiply a transform
  * matrix times a column vector.) We create a temporary
- * Vector4 from the position vector where the homogenous
+ * Vector4 from the position vector where the homogeneous
  * coordinate is 1.
  **/
 Position Transform::operator*(Position const& p) const {
@@ -252,7 +246,7 @@ Position Transform::operator*(Position const& p) const {
 /** -----------------------------------------------------------
  * Post transform a direction vector. (Multiply a transform
  * matrix times a column vector.) We create a temporary
- * Vector4 from the direction vector where the homogenous
+ * Vector4 from the direction vector where the homogeneous
  * coordinate is 0.
  **/
 Direction Transform::operator*(Direction const& d) const {
